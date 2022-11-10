@@ -119,4 +119,41 @@
 
             // ---- MATH
 
-            
+                // let x = 3.14;
+
+                /* x = Math.round(x); round the number to 3
+                    x = Math.floor(x); always round the number down ; result : 3
+                    x = Math.ceil(x); always round up; result : 4
+                    x = Math.pow(x, 2); x to the power of 2;
+                    x = Math.sqrt(x);
+                    x=Math.abs(x); absolute value is the distance away from zero.; result will be positive
+
+                    console.log (x);   */
+
+                // another sample:
+
+                // let x = 3.14
+                // let y = 5
+                // let z = 9
+                // let maximum;
+                // let minimum;
+
+                // maximum = Math.max(x,y,z);
+                
+                // console.log(minimum) ; result would be the minumum number which is the 3.14
+
+    // --- FIND THE RIGHT ANGLE TRIANGLE - HYPOTENUSE
+
+        let a;
+        let b;
+        let c;
+
+        a = window.prompt ("Enter side A")
+        a = Number(a);
+
+        b = window.prompt ("Enter side B")
+        b = Number(a);
+
+        c = Math.sqrt (Math.pow (a, 2) + Math.pow (b, 2));
+
+        console.log ("Side C:", c);
