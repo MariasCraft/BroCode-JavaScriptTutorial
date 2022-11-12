@@ -195,3 +195,27 @@
 
         */
 
+        //--- RANDOM NUMBER (this is optional but useful for creating games or dice)
+
+        // let x = Math.random();                                   //random number between 0 and .999999
+        // let x = Math.random() * 6;                           // to generate number between 0 and 5
+        // let x = Math.floor(Math.random() * 6) + 1;   //to generate number between 1 and 6, so add 6 in syntax, this works like a dice
+
+                // to roll 3 dice
+             
+         /*    let x 
+                let y
+                let z
+
+        document.getElementById('rollBtn').onclick = function () {
+
+            x = Math.floor(Math.random() * 6) + 1;
+            y= Math.floor(Math.random() * 6) + 1;
+            z = Math.floor(Math.random() * 6) + 1;
+
+            document.getElementById("xLabel").innerHTML = x;
+            document.getElementById("yLabel").innerHTML = y;
+            document.getElementById("zLabel").innerHTML = z;
+            }
+
+            */
