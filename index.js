@@ -219,3 +219,26 @@
             }
 
             */
+
+            // --- STRING SLICING
+
+            // let fullName = "Maria Baclayon"
+            // let firstName;
+            // let lastName;
+
+            // lastName = fullName.slice(6);
+            // firstName = fullName.slice(0, 5);
+
+
+// --- IF STATEMENT 
+        // - a basic form of decision making if a condition is true, then do something if not, then don't do it.
+
+        let age = 2;
+
+
+        if (age >= 18) {
+                    console.log ("You are an adult!");
+        }
+        else {
+            console.log("You are a child!")
+        }
