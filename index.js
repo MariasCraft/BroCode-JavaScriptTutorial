@@ -233,12 +233,33 @@
 // --- IF STATEMENT 
         // - a basic form of decision making if a condition is true, then do something if not, then don't do it.
 
-        let age = 2;
+        // let age = 2;
 
 
-        if (age >= 18) {
-                    console.log ("You are an adult!");
-        }
-        else {
-            console.log("You are a child!")
-        }
+        // if (age >= 18) {
+        //             console.log ("You are an adult!");
+        // }
+        // else {
+        //     console.log("You are a child!")
+        // }
+
+        // let age = 20;
+
+        //  if (age >=60) {
+        //     console.log ("You are a senior");
+        // }
+
+        // else if (age >= 18) {
+        //     console.log ("You are an adult");
+        // }
+
+        // else if (age < 0) {
+        //     console.log ("You are not born yet");
+        // }
+      
+        // else {
+        //     console.log ("Please input a correct number, Thank you!"); }
+    
+
+        //NOTE : the order of the else if statement does matter
+
